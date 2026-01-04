@@ -1,5 +1,3 @@
-** start of main.py **
-
 def hanoi_solver(n):
     rods = [list(range(n, 0, -1)), [], []]
     moves = []
@@ -21,7 +19,4 @@ def hanoi_solver(n):
     record_state()
     move_disks(n, 0, 2, 1)
     return "\n".join(moves)
-
-
-** end of main.py **
 
